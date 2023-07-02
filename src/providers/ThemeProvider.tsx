@@ -9,6 +9,15 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
     };
 
     useEffect(() => {
+        if (
+            window.matchMedia &&
+            window.matchMedia("prefers-color-scheme: dark)")
+        ) {
+            setDarkTheme(true);
+        }
+    }, []);
+
+    useEffect(() => {
         document.body.className = darkTheme ? "theme-dark" : "theme-light";
     }, [darkTheme]);
 
