@@ -14,6 +14,10 @@ React Tailwind Theme is a sample React application that demonstrates how to impl
 
 Check out the live demo of the application [here](https://react-tailwind-theme.vercel.app/).
 
+## Blog
+
+You can read the step by step instructions on how to create this on my blog [here](https://heyitsanmolj.hashnode.dev/implementing-dark-theme-in-a-react-app-with-vite-typescript-and-tailwind-css).
+
 ## Installation
 
 To run the application locally, follow these steps:
